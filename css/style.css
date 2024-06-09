@@ -1,0 +1,799 @@
+/*Estilos de Index*/
+body {
+    background-color: #f4f4f4;
+}
+.banner{
+    background-color: #fabe25;
+    height: 70px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+    text-decoration: none;
+}
+#logo{
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 2px;
+    position: relative;
+    display: flex;
+    width: 95%;
+    height: 90%;
+}
+
+.menunav{
+    color: #fffbeb;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    gap: 20px;
+    margin: -50px 15px 0px 0px;
+    position: relative;
+    text-decoration: none;
+    
+}
+h1{
+    color: #fbd24e;
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    margin-top: -40px;
+}
+h2{
+    color: #bd580a;
+    font-size: 45px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+h3{
+    color: #bd580a;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+}
+h4{
+    font-size: 15px;
+    color: #ffffff;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+
+#racktv{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 980px;
+    left: 12%;
+}
+#mesita2{
+    position: relative;
+    left: 42%;
+    width: 150px;
+    height: 150px;
+    top: -55px;
+}
+#mesadeluz{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 980px;
+    left: 35%;
+}
+#comoda{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 980px;
+    left: 55%;
+}
+#recibidor{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 980px;
+    left: 73%;
+}
+#instagram{
+    width: 35px;
+    height: 35px;
+}
+#facebook{
+    width: 35px;
+    height: 35px;
+}
+.newsletter{
+    display: flex;
+    float: right;
+    color: #ffffff;
+    font-size: 23px;    
+}
+#muebleab{
+    left: 100%;
+}
+.formulario{
+    font-size: 23px;
+    color: #bd580a;
+}
+.valores{
+    color: #bd580a;
+    flex-direction: column;
+    margin-left: 300px;
+}
+.calidad{
+    flex-direction: column;
+    width: 100%;
+    height: 600px
+    border solid 1px #664602;
+}
+
+.descubrimos{
+    background-color: cornflowerblue;
+}
+.padre{
+    width: 100%;
+    height: 600px;
+    background-image: url(../assets/images/reseñas.png);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hijo3{
+    color: #f4f4f4;
+    position: relative;
+    font-size: 10px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#opiniones{
+    color: #bd580a;
+    font-size: 35px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;    
+    position: absolute;
+    font-weight: bold;
+    left: 70px;
+    margin-bottom: 460px;
+    padding: 10px;
+}
+#categorias{
+    color: #bd580a;
+    font-size: 35px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    position: absolute;
+    font-weight: bold;
+    left: 100px;
+    margin-top: -340px;
+}
+.fotopri{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0px 0px 20px;
+}
+.footerflex{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fabe25;
+}
+.ftr1{
+    width: 260px;
+}
+.ftr2{
+    width: 300px;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: #f4f4f4;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.ftr3{
+    width: 260px;
+    color: #f4f4f4;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.img1{
+    width: 279px;
+    height: 315px;
+    margin: 175px 15px;
+    text-align: center;
+    
+}
+.img2{
+   width: 279px;
+    height: 315px;
+    margin: 15px 15px;
+}
+.img3{
+    width: 279px;
+    height: 315px;
+    margin: 75px 15px 0px 15px
+
+}
+.img4{
+    width: 279px;
+    height: 315px;
+    margin: 15px 15px;
+}
+#piepage{
+    background-color: #fabe25;
+}
+.rtext1t{
+    color: #f4f4f4;
+    position: absolute;
+    font-size: 18px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    left: 230px;
+    margin-top: -240px;
+
+}
+.rtext1{
+    color: #f4f4f4;
+    position: absolute;
+    font-size: 16px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;    left: 140px;
+    margin-top: -175px;
+}
+.rtext2t{
+    color: #f4f4f4;
+    position: absolute;
+    font-size: 18px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    margin-top: 40px;
+    padding: 20px;
+    left: 615px;
+
+
+}
+.rtext2{
+    color: #f4f4f4;
+    position: absolute;
+    font-size: 16px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;    margin-top: 100px;
+    text-align: left;
+    padding: 20px;
+}
+.rtext3t{
+    color: #f4f4f4;
+    position: absolute;
+    font-size: 18px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;    right: 55px;
+    margin-top: -240px;
+}
+.rtext3{
+    color: #f4f4f4;
+    position: absolute;
+    font-size: 16px;
+    color: #f4f4f4;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    right: 35px;
+    margin-top: -175px;
+}
+.box{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    background-color: #fabe25;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.imgr1{
+    background-image: url(../assets/images/rackrose.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgr2{
+    background-image: url(../assets/images/rackrose.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgr3{
+    background-image: url(../assets/images/rackrose.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgr4{
+    background-image: url(../assets/images/rackrose.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgr5{
+    background-image: url(../assets/images/rackrose.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgr6{
+    background-image: url(../assets/images/rackrose.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgr7{
+    background-image: url(../assets/images/rackrose.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgr8{
+    background-image: url(../assets/images/rackrose.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgl1{
+    background-image: url(../assets/images/rose.jfif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgl2{
+    background-image: url(../assets/images/rose.jfif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgl3{
+    background-image: url(../assets/images/rose.jfif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgl4{
+    background-image: url(../assets/images/rose.jfif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgl5{
+    background-image: url(../assets/images/rose.jfif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgl6{
+    background-image: url(../assets/images/rose.jfif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgl7{
+    background-image: url(../assets/images/rose.jfif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgl8{
+    background-image: url(../assets/images/rose.jfif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgc1{
+    background-image: url(../assets/images/comoda1cat.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgc2{
+    background-image: url(../assets/images/comoda1cat.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgc3{
+    background-image: url(../assets/images/comoda1cat.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgc4{
+    background-image: url(../assets/images/comoda1cat.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgc5{
+    background-image: url(../assets/images/comoda1cat.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgc6{
+    background-image: url(../assets/images/comoda1cat.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgc7{
+    background-image: url(../assets/images/comoda1cat.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgc8{
+    background-image: url(../assets/images/comoda1cat.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgre1{
+    background-image: url(../assets/images/recibidor\ rose.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgre2{
+    background-image: url(../assets/images/recibidor\ rose.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgre3{
+    background-image: url(../assets/images/recibidor\ rose.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgre4{
+    background-image: url(../assets/images/recibidor\ rose.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgre5{
+    background-image: url(../assets/images/recibidor\ rose.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgre6{
+    background-image: url(../assets/images/recibidor\ rose.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgre7{
+    background-image: url(../assets/images/recibidor\ rose.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgre8{
+    background-image: url(../assets/images/recibidor\ rose.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.catrack{
+    display: grid;
+    gap: 20px;
+    grid-template-rows: repeat(2, 250px) ;
+    grid-template-columns: repeat(4, 250px);
+    margin-top: 30px;
+    justify-content: center;
+}
+.grid-5{
+    display: grid;
+    gap: 20px;
+    grid-template-rows: repeat(3, 550px) ;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+}
+.imgm1{
+    background-image: url(../assets/images/mesita\ de\ luz.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.imgm2{
+    font-size: 19px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #bd580a;
+}
+.imgm3{
+    font-size: 19px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #bd580a;
+}
+.imgm4{
+    background-image: url(../assets/images/mesita\ de\ luz2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.imgm5{
+    background-image: url(../assets/images/mesita\ de\ luz3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.imgm6{
+    font-size: 19px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #bd580a;
+    }
+.categoriasnew{
+    background-image: url(../assets/images/Categorias.png);
+    background-size: 100%;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.rackcat{
+    width: 200px;
+    height: 200px;
+}
+.rackcathov :hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);;
+}
+.mecitacat{
+    width: 200px;
+    height: 200px;
+}
+.mecitacathov :hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);;
+}
+.comodacat{
+    width: 200px;
+    height: 200px;
+}
+.comodacathov :hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);;
+}
+.recibidorcat{
+    width: 200px;
+    height: 200px;
+}
+.recibidorhov :hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);;
+}
+.textnos{
+    font-size: 19px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #bd580a;
+    text-align: center;
+}
+.tallerimg{
+    position: relative;
+    margin-right: 100px;
+}
+.formulario{
+    font-size: 19px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (max-width: 480px){
+    .menunav{
+    top: 90px;
+    position: relative;
+    font-size: 16px;
+    text-decoration: none;
+    right: 20px;
+    }
+    .banner{
+        top: 20px;
+        left: 120px;
+        max-width: 40%;
+        max-height: 50px;
+        align-items: center;
+        background-color: #f4f4f4;
+    }
+    .img2{
+    top: -300px;
+    position: relative;
+    }
+    .img3{
+        top: -180px;
+        position: relative;
+    }
+    .img4{
+    top: 15px;
+    position: relative;
+    }
+    .h2{
+    color: #bd580a;
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    position: relative;
+    }
+    .h3{
+        color: #bd580a;
+        font-size: 25px;
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        }
+    .fotopri{
+        top: -50px;
+        position: relative;
+    }
+    .categoriasnew{
+        position: relative;
+        top: 250px;
+    }
+    #categorias{
+        position: relative;
+        top: 40px;
+        background-size: 80%;
+        background-repeat: repeat
+    }
+    .rackcat{
+        position: relative;
+        right: 40px;
+        top: 10px;
+    }
+    .mecitacat{
+        position: relative;
+        top:30px;
+    }
+    .comodacat{
+        position: relative;
+        top:50px;
+    }
+    .recibidorcat{
+        position: relative;
+        top:70px;
+    }
+    .grid-5{
+        position: relative;
+        top: 930px;
+    }
+    .box{
+        max-width: 500px;
+        max-height: 400px;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+    }
+    .imgm1{
+        background-size: 100%;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+        top: -110px;
+        position: relative;
+    }
+    .imgm2{
+        background-size: 100%;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+        font-size: 10px;
+        top: -110px;
+        position: relative;
+    }
+    .imgm3{
+        background-size: 100%;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+        font-size: 10px;
+        top: -420px;
+        position: relative;
+    }
+    .imgm4{
+        background-size: 100%;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+        top: -420px;
+        position: relative;
+    }
+    .imgm5{
+        background-size: 100%;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+        top: -700px;
+        position: relative;
+    }
+    .imgm6{
+        background-size: 100%;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+        font-size: 10px;
+        top: -700px;
+        position: relative;
+    }
+    .padre{
+        background-size: 100%;
+        background-image: url(../assets/images/reseñas\ mobile.png);
+        background-repeat: no-repeat;
+        position: relative;
+        top: 120px;
+    }
+    .hijo1{
+            visibility: hidden;
+        }
+    
+    .hijo2{
+        max-width: 300px;
+        max-height: 300px;
+        background-size: 80%;
+        visibility: hidden;
+    }
+    
+    .hijo3{
+        background-size: 50%;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+        visibility: hidden;
+    }
+    #opiniones{
+        font-size: 30px;
+        top: -90px;
+    }
+    .footerflex{
+        background-color: #fabe25;
+        height: 100%;
+        top: -100px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .ftr1{
+        position: relative;
+        top: -80px;
+        left: 40px;
+    }
+    #derechos{
+        position: relative;
+        top: 200px;
+    }
+
+}
+
+/*Estilos de Actividades*/
+

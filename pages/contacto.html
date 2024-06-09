@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,900;1,900&display=swap" rel="stylesheet">    
+    <title>contacto</title>
+<link rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<!--Header-->
+<header class="banner">
+    <a href="./index.html"><img id="logo" src="../assets/images/logo.png" alt="banner"></a>
+    </header>
+<!--Menu de navegación-->
+<nav>
+    <ul class="menunav">
+        <li id="indexnav" ><a href="../index.html">Inicio</a></li>
+        <li id="categoriasnav" ><a href="../pages/categorias.html">Categorias</a></li>
+        <li id="nosotrosnav" ><a href="../pages/nosotros.html">Nosotros</a></li>
+        <li id="contactosnav"><a  href="../pages/contacto.html">Contacto</a></li>
+    </ul>
+</nav>
+<br><br><br>
+<!--Formulario de contacto-->
+<section>
+<fieldset class="formulario">
+    <legend>Formulario de contacto</legend>
+    <label for="nombre">Nombre</label>
+    <input type="text" name="nombre" id="nombre"
+    placeholder="Ingres su nombre">
+    <label for="apellido">Apellido</label>
+    <input type="text" name="apellido" id="apellido"
+    placeholder="Ingrese su Apellido"><br>
+    <label for="telefono">Teléfono</label>
+    <input type="text" name="telefono" id="telefono"
+    placeholder="Ingrese su Teléfono">
+    <label for="provincia">Provincía</label>
+    <select name="provincia" id="provincia"><br>
+        <option value="buenos aires">Buenos aires</option>
+        <option value="catamarca">Camatarca</option>
+        <option value="chaco">Chaco</option>
+        <option value="chubut">Chubut</option>
+        <option value="cordoba">Cordoba</option>
+        <option value="corrientes">Corrientes</option>
+        <option value="entre rios">Entre Rios</option>
+        <option value="formosa">Formosa</option>
+        <option value="jujuy">Jujuy</option>
+        <option value="la pampa">La Pampa</option>
+        <option value="la rioja">La Rioja</option>
+        <option value="mendoza">Mendoza</option>
+        <option value="misiones">Misiones</option>
+        <option value="neuquen">Neuquen</option>
+        <option value="rio negro">Rio Negro</option>
+        <option value="salta">Salta</option>
+        <option value="san juan">San Juan</option>
+        <option value="san luis">San Luis</option>
+        <option value="santa cruz">Santa Cruz</option>
+        <option value="santa fe">Santa Fe</option>
+        <option value="santiago del estero">Santiago del Estero</option>
+        <option value="tucuman">Tucuman</option>
+
+    </select>
+    <form action="procesar.php" method="post" enctype="multipart/form-data">
+    <p3>Escribinos tu mensaje</p3><br>
+    <textarea name="mensaje" id="mensaje" cols="30" rows="10" maxlength="10" minlength="8"></textarea>
+    <input type="submit" value="Enviar Formulario">
+    <input type="reset" value="Limpiar Campos">
+    </fieldset>
+</section>
+<!--Pie de pagina-->
+<footer class="footerflex">
+    <div class="ftr1"><a href="#logo"><img src="../assets/images/logo foooter.png" alt="Camdem Logo" ></a></div>
+    <div class="ftr2"><br><br><br><p3>Seguinos en nuestras redes:</p3>
+        <a href="https://www.instagram.com/camdemmuebles" >
+        <img id="instagram" src="../assets/images/instagram.png" alt="instagram"> 
+        <a href="https://www.facebook.com/camdemuebles" >
+        <img id="facebook" src="../assets/images/facebook vector.png" alt="facebook"></a><br><br><br><br><h4 id="derechos">Todos los derechos reservados 2024</h4></div>
+        <div class="ftr3"><form action="procesar.php" method="post" enctype="multipart/form-data">
+        <label for="correo">¿Quieres recibir promociones a tu correo?</label><br>
+        <input type="text" name="correo" id="correo" placeholder="Ingrese su correo">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar Campo">
+        <form action="procesar.php" method="post" enctype="multipart/form-data"></div>
+</div>
+</footer>
+</body>
+</html>
